@@ -54,6 +54,20 @@
             <br>
             Your name is <?php echo $_GET["name"] ?> and you are <?php echo $_GET["age"]?>
 
+            <hr>
+            Calculator
+            <form action="site.php" method="get">
+                <input type="number" name="num1">
+                <br>
+                <input type="number" name="num2">
+                <br>
+                <input type="submit">
+            </form>
+
+            <?php 
+            echo "Answer:";
+            echo $_GET["num1"] + $_GET["num2"];
+            ?>
         <script src="" async defer></script>
     </body>
 </html>
