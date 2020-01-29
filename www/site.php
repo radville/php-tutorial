@@ -40,7 +40,19 @@
             echo $num;
             echo "<br>";
             echo min(2, 14);
+
+            echo "<hr>";
+            echo "<h1>User input - forms</h1>";
         ?>
+
+            <form action="site.php" method="get">
+                Name: <input type="text" name="name">
+                <br>
+                Age: <input type="number" name="age">
+                <input type="submit">
+            </form>
+            <br>
+            Your name is <?php echo $_GET["name"] ?> and you are <?php echo $_GET["age"]?>
 
         <script src="" async defer></script>
     </body>
