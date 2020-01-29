@@ -16,7 +16,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <?php 
-            echo("Hello World!");
+            $name = "Laura";
+            $state = "Massachusetts";
+            echo "<h1>$name's Site</h1>";
+            echo "<hr>";
+            echo("Hello $state!");
         ?>
 
         <script src="" async defer></script>
