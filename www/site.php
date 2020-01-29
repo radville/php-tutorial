@@ -21,6 +21,25 @@
             echo "<h1>$name's Site</h1>";
             echo "<hr>";
             echo("Hello $state!");
+
+            $phrase = "To be or not to be";
+            $age = 30;
+            $gpa = 3.9;
+            $isFemale = true;
+            
+            echo "<br>";
+            echo strtolower($phrase);
+            echo "<br>$phrase[0]<br>";
+            echo str_replace("be", "eat", $phrase);
+            echo "<br>";
+            echo (4+5) % 3;
+            echo "<br>";
+            $num = 10;
+            $num *= 25;
+            $num++;
+            echo $num;
+            echo "<br>";
+            echo min(2, 14);
         ?>
 
         <script src="" async defer></script>
