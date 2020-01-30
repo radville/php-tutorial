@@ -68,6 +68,18 @@
             echo "Answer:";
             echo $_GET["num1"] + $_GET["num2"];
             ?>
+            <hr>
+            <h1>POST Form</h1>
+            <form action="site.php" method="post">
+                <input type="password" name="password"> <br>
+                <input type="submit">
+            </form>
+            <br><br>
+
+            <?php
+                echo $_POST["password"]
+            ?>
+
         <script src="" async defer></script>
     </body>
 </html>
